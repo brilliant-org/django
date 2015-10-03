@@ -346,6 +346,8 @@ class Expression(BaseExpression, Combinable):
     """
     pass
 
+class ExpressionNode(Expression):
+    pass
 
 class CombinedExpression(Expression):
 
